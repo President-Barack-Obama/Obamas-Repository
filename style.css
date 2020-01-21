@@ -1,11 +1,11 @@
 .nav {
-background-color:blue;
+background-color:mediumspringgreen;
 grid-area:nav;
 height: 60px;
 }
 
 .footer {
-background-color:yellow;
+background-color:mediumspringgreen; text-shadow: 2px 2px 5px navy;;
 grid-area:footer;
 height: 60px;
 }

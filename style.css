@@ -1,25 +1,27 @@
+body: background: linear-gradient(to right, lightgreen, teal);
 .nav {
-background-color:mediumspringgreen;
+background:rgba(0,0,0,.2);
 grid-area:nav;
-height: 60px;
+
 }
 
 .footer {
-background-color:mediumspringgreen; text-shadow: 2px 2px 5px navy;;
+background-color:mediumspringgreen; 
+  text-shadow: 2px 2px 5px navy;;
 grid-area:footer;
-height: 60px;
+
 }
 
 .main {
 background:rgba(0,0,0,0.2);
   background-color:mediumspringgreen; text-shadow: 2px 2px 5px navy;
 grid-area: main;
-height: 60px;
+
 }
 .header {
 background-color:mediumspringgreen; text-shadow: 2px 2px 5px navy;;
 grid-area: header;
-height: 60px;
+
 }
 .container1 { /*for index.html*/
   display: grid;

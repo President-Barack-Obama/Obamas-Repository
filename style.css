@@ -16,7 +16,7 @@ grid-area: main;
 height: 60px;
 }
 .header {
-background-color:red;
+background-color:mediumspringgreen; text-shadow: 2px 2px 5px navy;;
 grid-area: header;
 height: 60px;
 }

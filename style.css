@@ -1,14 +1,15 @@
-body: background: linear-gradient(to right, lightgreen, teal);
-
-.nav {
-background:rgba(0,0,0,0.2);
-  background-color:mediumspringgreen;  
-  text-shadow: 2px 2px 5px navy;
-grid-area:nav;
-
+body{
+  background: linear-gradient(to right, lightgreen, teal);
 }
 
-.footer {
+nav {
+  background:rgba(0,0,0,0.2);
+  background-color:mediumspringgreen;  
+  text-shadow: 2px 2px 5px navy;
+  grid-area:nav;
+}
+
+footer {
   background:rgba(0,0,0,0.2);
 background-color:mediumspringgreen; 
   text-shadow: 2px 2px 5px navy;;
@@ -16,14 +17,14 @@ grid-area:footer;
 
 }
 
-.main {
+main {
 background:rgba(0,0,0,0.2);
   background-color:mediumspringgreen; 
   text-shadow: 2px 2px 5px navy;
 grid-area: main;
 
 }
-.header {
+header {
   background:rgba(0,0,0,0.2);
 background-color:mediumspringgreen; 
   text-shadow: 2px 2px 5px navy;

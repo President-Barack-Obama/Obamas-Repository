@@ -1,7 +1,9 @@
 body: background: linear-gradient(to right, lightgreen, teal);
+
 .nav {
 background:rgba(0,0,0,0.2);
-  background-color:mediumspringgreen;  text-shadow: 2px 2px 5px navy;
+  background-color:mediumspringgreen;  
+  text-shadow: 2px 2px 5px navy;
 grid-area:nav;
 
 }
@@ -16,13 +18,15 @@ grid-area:footer;
 
 .main {
 background:rgba(0,0,0,0.2);
-  background-color:mediumspringgreen; text-shadow: 2px 2px 5px navy;
+  background-color:mediumspringgreen; 
+  text-shadow: 2px 2px 5px navy;
 grid-area: main;
 
 }
 .header {
   background:rgba(0,0,0,0.2);
-background-color:mediumspringgreen; text-shadow: 2px 2px 5px navy;;
+background-color:mediumspringgreen; 
+  text-shadow: 2px 2px 5px navy;
 grid-area: header;
 
 }

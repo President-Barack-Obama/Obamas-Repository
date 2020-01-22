@@ -7,6 +7,7 @@ grid-area:nav;
 }
 
 .footer {
+  background:rgba(0,0,0,0.2);
 background-color:mediumspringgreen; 
   text-shadow: 2px 2px 5px navy;;
 grid-area:footer;
@@ -20,6 +21,7 @@ grid-area: main;
 
 }
 .header {
+  background:rgba(0,0,0,0.2);
 background-color:mediumspringgreen; text-shadow: 2px 2px 5px navy;;
 grid-area: header;
 

@@ -1,5 +1,7 @@
 body{
   background: linear-gradient(to right, lightgreen, teal);  
+  grid-area: body;
+  font-family:Verdana;
 }
 
 header {

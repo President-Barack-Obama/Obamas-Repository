@@ -1,7 +1,7 @@
 body{
   background: linear-gradient(to right, lightgreen, teal);  
   grid-area: body;
-  font-family:Verdana;
+  font-family: Verdana;
 }
 
 header {
@@ -40,10 +40,12 @@ grid-area:footer;
 
 .container1 { /*for index.html*/
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap:.5em
-  
-  "header header"
-  "nav main"
-  "footer footer";
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
     }
+

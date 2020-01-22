@@ -1,6 +1,5 @@
 body{
-  background: linear-gradient(to right, lightgreen, teal);
-  
+  background: linear-gradient(to right, lightgreen, teal);  
 }
 
 header {
@@ -41,8 +40,7 @@ grid-area:footer;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap:.5em
-    margin:1%
-    
+  margin:1%
   grid-template-areas:
   "header header"
   "nav main"

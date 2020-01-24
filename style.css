@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(to right, lightgreen, teal);  
+  background: linear-gradient(to right, purple, teal);  
   grid-area: body;
   font-family: Verdana;
 }
@@ -13,6 +13,7 @@ header {
 header h1 {
   color:mediumspringgreen;
   text-shadow: 2px 2px 5px navy;
+  
 }
 
 header h3 {

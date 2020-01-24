@@ -6,30 +6,18 @@ body{
 
 header {
   background:rgba(0,0,0,0.2);
-  text-shadow: 2px 2px 5px navy;
   grid-area:header;
   text-align:center;
-
-
 }
 
 header h1 {
   color:mediumspringgreen;
   text-shadow: 2px 2px 5px navy;
-
-  
 }
-
-
-  
-}
-  
   
 nav {
   background:rgba(0,0,0,0.2);
-  text-shadow: 2px 2px 5px navy;
   grid-area:nav;
-
 }
 
 nav ul {
@@ -58,19 +46,14 @@ main {
   background:rgba(0,0,0,0.2); 
   grid-area:main;
   text-align:center;
-
-
 }
 
 main p {
   color:white;
   text-align:left;
-  
 }
 
   
-
-
 footer {
   background:rgba(0,0,0,0.2);
   grid-area:footer;

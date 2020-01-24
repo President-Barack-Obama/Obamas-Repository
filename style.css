@@ -58,7 +58,6 @@ a:hover {
 
 main {
   background:rgba(0,0,0,0.2); 
-  text-shadow: 2px 2px 5px navy;
   grid-area:main;
   text-align:center;
 
@@ -75,7 +74,6 @@ main p {
 
 footer {
   background:rgba(0,0,0,0.2);
-  text-shadow: 2px 2px 5px navy;
   grid-area:footer;
 
   

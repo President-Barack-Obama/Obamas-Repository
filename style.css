@@ -16,13 +16,13 @@ header h1 {
 }
 
 header h3 {
-  color:blue;
+  text-color:blue;
 }
   
 nav {
   background:rgba(0,0,0,0.2);
   grid-area:nav;
-  color:blue;
+  text-color:blue;
 }
 
 nav ul {
@@ -54,7 +54,7 @@ main {
 }
 
 main h2 {
-  color:blue;
+  text-color:blue;
 }
 
 main p {

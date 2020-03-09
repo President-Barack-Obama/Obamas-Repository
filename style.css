@@ -73,6 +73,24 @@ main p {
   font-size:1em;
 }
 
+audio {
+ max-width: 100%; 
+ preload="auto";
+ 
+}
+video { 
+  max-width:  100%;
+  height:auto;
+ preload="auto";
+ 
+}
+
+.video, .audio {
+    margin:0;
+    display:grid;  /*This needs to be set or it won't center*/
+    justify-content:space-around;
+}
+
 .travelpic {
   margin:auto;
 }
@@ -371,5 +389,14 @@ grid-template-columns:auto 1fr;
 grid-template-areas:
 "section fig1";
 }
+
+.container4 { /*for destination.html*/
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+	"header header"
+	"nav main"
+	"footer footer";
+	}
 }
 

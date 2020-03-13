@@ -74,6 +74,20 @@ main p {
   font-size:1em;
 }
 
+form {
+  background-color:darkseagreen;
+  width:90%;
+  margin:auto;
+  color:white;
+  padding:10px;
+}
+
+input {
+  margin: 1px 0 10px 0;
+}
+
+
+
 audio {
  max-width: 100%; 
  preload="auto";
@@ -90,6 +104,15 @@ video {
     margin:0;
     display:grid;  /*This needs to be set or it won't center*/
     justify-content:space-around;
+}
+
+.button {
+padding:5px;
+background-color:navy;
+color:lightseargeen;
+cursor:pointer;
+
+
 }
 
 .travelpic {
@@ -218,7 +241,32 @@ section h3 {
 text-align:center;
 color:navy;
 }
+.call {
+    color:navy;
+    text-align:center;
+    font-size:1.5em;
+    background-color:darkseagreen;
+    width:60%;
+    padding: 5px 0 0 0;
+    margin:10px auto 0 auto;
+    cursor:pointer;
+}
 
+.phone {
+    color:darkseagreen;
+    background-color:navy;
+    padding:5px;
+    text-align:center;
+    font-size:.75em;
+}
+
+.div1 {
+grid-area:div1;
+}
+
+.div2 {
+grid-area:div2;
+}
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
@@ -391,7 +439,14 @@ grid-template-areas:
 "section fig1";
 }
 
-.container4 { /*for destination.html*/
+.nestedgrid2 {
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-areas:
+"div1 div2";
+}
+
+.container4 { /*for destination.html and contact.html*/
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas:

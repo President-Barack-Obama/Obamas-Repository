@@ -75,7 +75,7 @@ main p {
 }
 
 form {
-  background-color:darkseagreen;
+  background-color:navy;
   width:90%;
   margin:auto;
   color:white;
@@ -262,12 +262,10 @@ color:navy;
 
 .div1 {
 grid-area:div1;
-background-color:navy;
 }
 
 .div2 {
 grid-area:div2;
-background-color:navy;
 }
 
 /*---------------------------Mobile Layout Styles----------------------------*/
